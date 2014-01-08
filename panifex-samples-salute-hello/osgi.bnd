@@ -1,0 +1,9 @@
+Bundle-Blueprint-Annotation: true
+
+Export-Package: 
+
+Import-Package: \
+    org.apache.aries.blueprint.annotation;version="[1.0, 2.0)", \
+    org.panifex.salute.spi;version="[1.0, 2.0)"
+
+Private-Package: org.panifex.salute.hello.*

@@ -1,0 +1,17 @@
+Bundle-Blueprint-Annotation: true
+
+Export-Package: \
+    org.panifex.salute.spi;version="1.0"
+
+Import-Package: \
+    org.apache.aries.blueprint.annotation;version="[1.0, 2.0)", \
+    org.panifex.module.api.content;version="[1.0,2.0)", \
+    org.panifex.module.api.menu;version="[1.0,2.0)", \
+    org.zkoss.bind;version="[7.0,8.0)", \
+    org.zkoss.bind.annotation;version="[7.0,8.0)", \
+    org.zkoss.mesg;version="[7.0,8.0)", \
+    org.zkoss.zk.ui;version="[7.0,8.0)", \
+    org.zkoss.zk.ui.event;version="[7.0,8.0)", \
+    org.zkoss.zul;version="[7.0,8.0)"
+
+Private-Package: org.panifex.salute.spi.*
